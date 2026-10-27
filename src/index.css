@@ -1,0 +1,9 @@
+@layer tailwind-base, antd;
+
+@import "./ui-kit/styles/base.css";
+
+@layer tailwind-base {
+  @tailwind base;
+}
+@tailwind components;
+@tailwind utilities;
