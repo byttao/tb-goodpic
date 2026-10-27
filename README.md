@@ -26,6 +26,13 @@
 npm run tauri icon src-tauri/app-icon.png
 ```
 
+## 打包
+
+GitHub Actions（`.github/workflows/build.yml`）：在 Actions 页面手动运行「打包」，或推送 `v*` 标签（同时发布 Release）。
+
+- macOS：Intel / Apple 芯片通用版 DMG，内含 `.app`、`通用安装-去隔离.command` 与安装说明（`scripts/macos/make-dmg.sh`）。
+- Windows：便携版 exe，不需要安装，双击运行。依赖系统自带的 WebView2（Windows 11 自带，Windows 10 通常已随 Edge 安装）。
+
 ## 开发
 
 ```bash

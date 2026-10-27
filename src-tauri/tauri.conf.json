@@ -50,15 +50,6 @@
     "macOS": {
       "signingIdentity": "-",
       "minimumSystemVersion": "10.15"
-    },
-    "windows": {
-      "nsis": {
-        "languages": [
-          "SimpChinese"
-        ],
-        "displayLanguageSelector": false,
-        "installMode": "currentUser"
-      }
     }
   },
   "mainBinaryName": "tb-goodpic"
